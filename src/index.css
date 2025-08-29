@@ -6,57 +6,58 @@
 
 @layer base {
   :root {
-    /* Bright & Vibrant color palette */
-    --background: 351 63% 88%;
-    --foreground: 0 0% 20%;
+    /* Healing & Trust color palette */
+    --background: 168 42% 91%;
+    --foreground: 195 16% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 20%;
+    --card-foreground: 195 16% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 20%;
+    --popover-foreground: 195 16% 18%;
 
-    /* Coral Orange primary */
-    --primary: 9 100% 69%;
+    /* Teal Green primary - healing and trust */
+    --primary: 174 100% 24%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 9 100% 75%;
+    --primary-glow: 174 100% 34%;
 
-    /* Deep Purple secondary */
-    --secondary: 262 25% 47%;
-    --secondary-foreground: 0 0% 100%;
+    /* Golden Yellow secondary - warmth and optimism */
+    --secondary: 45 95% 56%;
+    --secondary-foreground: 195 16% 18%;
 
-    /* Soft vibrant grays */
-    --muted: 351 63% 92%;
-    --muted-foreground: 0 0% 40%;
+    /* Soft healing grays */
+    --muted: 168 42% 95%;
+    --muted-foreground: 195 16% 35%;
 
-    --accent: 82 39% 49%;
+    /* Bright Blue accent - confidence and clarity */
+    --accent: 199 98% 41%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 351 30% 85%;
-    --input: 351 30% 85%;
-    --ring: 9 100% 69%;
+    --border: 168 25% 85%;
+    --input: 168 25% 85%;
+    --ring: 174 100% 24%;
 
-    /* Success/green accent */
-    --success: 82 39% 49%;
+    /* Success/healing green */
+    --success: 174 100% 24%;
     --success-foreground: 0 0% 100%;
 
-    /* Warning/caution amber */
-    --warning: 43 96% 56%;
-    --warning-foreground: 0 0% 100%;
+    /* Warning/optimism amber */
+    --warning: 45 95% 56%;
+    --warning-foreground: 195 16% 18%;
 
-    /* Vibrant gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(9 100% 69%), hsl(9 100% 75%));
-    --gradient-secondary: linear-gradient(135deg, hsl(262 25% 47%), hsl(262 25% 57%));
-    --gradient-hero: linear-gradient(135deg, hsl(9 100% 69%) 0%, hsl(82 39% 49%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(351 63% 92%) 100%);
+    /* Healing gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(174 100% 24%), hsl(174 100% 34%));
+    --gradient-secondary: linear-gradient(135deg, hsl(45 95% 56%), hsl(45 95% 66%));
+    --gradient-hero: linear-gradient(135deg, hsl(174 100% 24%) 0%, hsl(199 98% 41%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(168 42% 95%) 100%);
 
-    /* Vibrant shadows */
-    --shadow-card: 0 4px 6px -1px hsl(9 100% 69% / 0.15);
-    --shadow-elevated: 0 10px 25px -3px hsl(9 100% 69% / 0.2);
-    --shadow-glow: 0 0 30px hsl(9 100% 69% / 0.25);
+    /* Trust shadows */
+    --shadow-card: 0 4px 6px -1px hsl(174 100% 24% / 0.15);
+    --shadow-elevated: 0 10px 25px -3px hsl(174 100% 24% / 0.2);
+    --shadow-glow: 0 0 30px hsl(174 100% 24% / 0.25);
 
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
